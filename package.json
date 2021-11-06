@@ -1,10 +1,11 @@
 {
   "name": "node-mtn-momo-sdk",
   "version": "1.0.0",
+  "type": "module",
   "description": "sdk pour effectuer des transactions de paiement avec le service mtn momo",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "node test/index.js"
   },
   "keywords": [
     "paiement",
@@ -13,6 +14,9 @@
   ],
   "author": "gomsu gaetant",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Ggaetant199/node-mtn-momo-sdk.git"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "node-fetch": "^3.0.0",
